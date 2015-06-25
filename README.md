@@ -1,2 +1,4 @@
-# kinddom.github.io
-kinddom website
+# Kinddom Web Portals
+
+###Visit Me###
+http://www.kinddom.com/
