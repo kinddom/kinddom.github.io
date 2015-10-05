@@ -91,10 +91,10 @@ products:
 
 # 友情链接
 clients:
-  - name: amazon
+  - name: amazon_uk
     img: amazon_uk.png
     url: http://www.amazon.co.uk/shops/A3NVU9AA0XWIL
-  - name: wish
+  - name: amazon_jp
     img: amazon_jp.jpg
     url: http://www.amazon.co.jp/s?marketplaceID=A1VC38T7YXB528&me=A1UNGCFEG6Q6NN&merchant=A1UNGCFEG6Q6NN&redirect=true
 
