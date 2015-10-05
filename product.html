@@ -5,20 +5,25 @@ permalink: /product/
 ---
 
 <div class="container mtb">
-    <div class="row centered">
-        <h3 class="mb">Our Products</h3>
+    <div>
+        <h3 class="mb row centered">Our Products</h3>
         
         {% for product in site.products %}
-        <div class="col-lg-3 col-md-3 col-sm-3">
+        <div class="col-lg-4 col-md-4 col-sm-4" style="height:700px">
             <div class="he-wrap tpl6">
                 <a href="{{ product.url }}" target="_blank">
                     <img src="{{ "/assets/img/products/" | prepend: site.baseurl }}{{ product.img }}">
                 </a>
             </div><!-- he wrap -->
-            <div class="he-wrap tpl6" style="height:240px">
+            <div class="he-wrap tpl6">
                 <a href="{{ product.url }}" target="_blank">
                     <h4>{{ product.name }}</h4>
-                    <p>{{ product.text }}</p>
+                    <ul>
+                        <!-- {{ product.text }} -->
+                        {% for line in product.text %}
+                            <li>{{ line }}</li>
+                        {% endfor %}
+                    </ul>
                 </a>
             </div>
             <!-- <div class="hline"></div> -->
