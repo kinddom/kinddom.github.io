@@ -1,13 +1,13 @@
 ---
 layout: default_layout
-title: 联系我们
+title: Contact Us
 permalink: /contact/
 ---
 
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>联系地址</h4>
+            <h4>Address</h4>
             <div class="hline"></div>
                 <p>
                     {% for line in site.address.first.lines %}
@@ -15,10 +15,9 @@ permalink: /contact/
                     {% endfor %}
                 </p>
                 <p>
-                    Email: {{ site.email }}<br/>
+                    Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br/>
                     Tel: {{ site.tel }}
                 </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
         </div>
     </div><! --/row -->
 </div><! --/container -->

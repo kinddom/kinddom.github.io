@@ -1,12 +1,12 @@
 ---
 layout: product
-title: 产品简介
+title: Products
 permalink: /product/
 ---
 
 <div class="container mtb">
     <div class="row centered">
-        <h3 class="mb">我们的产品</h3>
+        <h3 class="mb">Our Products</h3>
         
         {% for product in site.products %}
         <div class="col-lg-3 col-md-3 col-sm-3">
@@ -15,11 +15,13 @@ permalink: /product/
                     <img src="{{ "/assets/img/products/" | prepend: site.baseurl }}{{ product.img }}">
                 </a>
             </div><!-- he wrap -->
-            <a href="{{ product.url }}" target="_blank">
-                <h4>{{ product.name }}</h4>
-                <p>{{ product.text }}</p>
-            </a>
-            <div class="hline"></div>
+            <div class="he-wrap tpl6" style="height:240px">
+                <a href="{{ product.url }}" target="_blank">
+                    <h4>{{ product.name }}</h4>
+                    <p>{{ product.text }}</p>
+                </a>
+            </div>
+            <!-- <div class="hline"></div> -->
         </div><! --/col-lg-3 -->	 	
         {% endfor %}
         
