@@ -92,14 +92,14 @@ products:
 # 友情链接
 clients:
   - name: amazon
-    img: client01.png
+    img: amazon_uk.png
     url: http://www.amazon.co.uk/shops/A3NVU9AA0XWIL
   - name: wish
-    img: client02.png
-    url: http://www.wish.com
+    img: amazon_jp.jpg
+    url: http://www.amazon.co.jp/s?marketplaceID=A1VC38T7YXB528&me=A1UNGCFEG6Q6NN&merchant=A1UNGCFEG6Q6NN&redirect=true
 
 # 关于我们
 about: "Kinddom是一家负责对外贸易的产品介绍网站, 期待与您合作."
 
 # 品牌故事
-brandStory: “如果不去西西里，就像没有到过意大利，因为在西西里你才能找到意大利的美丽之源。” 西西里岛在历史上命运多舛，曾经被希腊人、西班牙人、阿拉伯人和诺尔曼人先后统治过。然而西西里因此也成为了多种文明的交汇点，岛上多样的历史文化建筑更是叹为惊人！ 在这个地中海上最大的岛屿，你可以尽情地放纵自己。无论是在黑手党的老巢巴勒莫寻找曾经“黑暗”的蛛丝马迹，还是在风景如画的陶尔米纳放彻底地拥抱自然，亦或是在恬静小镇锡拉库萨找寻梦中的玛莲娜，你都会经历一场前所未有的美妙的旅程。
+brandStory: "We are a passionate and innovative global organisation who put customer satisfaction and experience at the forefront of our vision.Wolfteeth has dedicated staff across three continents that are constantly in pursuit of the latest technologies and innovations to ensure that our customers receive the very best experience. We dont believe in a one-and-done transaction but aim to develop long-term valued customers who hold us in as high regard as we hold them. With this in mind, we source only the very best in top quality materials to ensure that our customers are 100% satisfied, 100% of the time."
