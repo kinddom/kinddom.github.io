@@ -9,7 +9,7 @@ permalink: /product/
         <h3 class="mb row centered">Our Products</h3>
         
         {% for product in site.products %}
-        <div class="col-lg-4 col-md-4 col-sm-4" style="height:700px">
+        <div class="col-lg-3 col-md-3 col-sm-3" style="height:450px">
             <div class="he-wrap tpl6">
                 <a href="{{ product.url }}" target="_blank">
                     <img src="{{ "/assets/img/products/" | prepend: site.baseurl }}{{ product.img }}">
@@ -18,12 +18,14 @@ permalink: /product/
             <div class="he-wrap tpl6">
                 <a href="{{ product.url }}" target="_blank">
                     <h4>{{ product.name }}</h4>
+                    <!-- {{ product.text }} -->
+                    <!--
                     <ul>
-                        <!-- {{ product.text }} -->
                         {% for line in product.text %}
                             <li>{{ line }}</li>
                         {% endfor %}
                     </ul>
+                    -->
                 </a>
             </div>
             <!-- <div class="hline"></div> -->
