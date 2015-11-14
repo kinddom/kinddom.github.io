@@ -7,26 +7,46 @@ permalink: /contact/
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Address</h4>
+            <h4>About Us</h4>
+            <!--
             <div class="hline"></div>
+            
                 <p>
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}
                 </p>
                 <p>
-                    <!-- Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br/> -->
                     Tel: {{ site.tel }}
                 </p>
-            <!--
-                <p>
-                <a target="_blank" href="https://yaphetcat.wufoo.com/forms/how-can-i-help/" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_02.png"/></a>
-                    <a href="#" class="button email">Send email</a>
-                </p>
             -->
+            <table class="table">
+               <tbody>
+                  <tr class="active">
+                     <td>
+                        <i class="fa fa-home fa-fw"></i>&nbsp; Address
+                     </td>
+                     <td>
+                        {% for line in site.address.first.lines %}
+                            {{ line }} <br>
+                        {% endfor %}
+                    </td>
+                  </tr>
+                  <tr class="active">
+                     <td>
+                        <i class="fa fa-phone fa-fw"></i>&nbsp; Phone
+                     </td>
+                     <td>
+                        {{ site.tel }}
+                    </td>
+                  </tr>
+               </tbody>
+            </table>
+            <p>
                 <a target="_blank" href="https://yaphetcat.wufoo.com/forms/how-can-i-help/" class="button button-3d button-primary button-rounded">
                     <i class="fa fa-envelope"></i> Send Email
                 </a>
+            </p>
         </div>
 
     </div><! --/row -->
