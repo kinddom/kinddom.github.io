@@ -94,6 +94,47 @@ a:focus {
 }
 
 /*-----------------------------------
+        HomePage Banner
+------------------------------------*/
+
+.homepage-banner-content h3 {
+    color: #fff;
+    font-family: "exo";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    width: 800px;
+    padding-left: 20px;
+}
+
+.homepage-banner-content p {
+    color: #fff;
+    font-size: 17px;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.primary-btn-large {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    text-transform: uppercase;
+}
+
+.primary-btn-medium, .primary-btn-large {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #00f98e;
+    color: #00f98e;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: background 0.3s ease-in 0s;
+}
+
+/*-----------------------------------
 		Text
 ------------------------------------*/
 
@@ -266,9 +307,9 @@ a:focus {
 	background-color: {{ site.colors.primary }}; 
 /*    background: #000 url("/assets/img/banner.jpg") repeat scroll center center / cover ; */
 	min-height: 0px;
-	padding-top: 150px;
-	padding-bottom: 150px;
-	text-align: center;
+	padding-bottom: 80px;
+    padding-top: 100px;
+/*	text-align: center; */
 }
 
 #headerwrap h3, h5 {
@@ -487,6 +528,12 @@ csmall {
 .badge-theme {
 	background: {{ site.colors.primary }};
 }
+
+/*********************************
+
+ Contact Us
+
+ *********************************/
 
 /* Contact Page */
 #contactwrap {
