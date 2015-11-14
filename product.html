@@ -1,0 +1,39 @@
+---
+layout: product
+title: Products
+permalink: /product/
+---
+
+<div class="container mtb">
+    <div>
+        <h3 class="mb row centered">Our Products</h3>
+        
+        {% for product in site.products %}
+        <div class="col-lg-3 col-md-3 col-sm-3" style="height:450px">
+            <div class="he-wrap tpl6">
+            <!--    <a href="{{ product.url }}" target="_blank"> -->
+                    <img src="{{ "/assets/img/products/" | prepend: site.baseurl }}{{ product.img }}">
+            <!--    </a> -->
+            </div><!-- he wrap -->
+            <div class="he-wrap tpl6">
+                <!-- <a href="{{ product.url }}" target="_blank"> -->
+                <!--    <h4>{{ product.name }}</h4> -->
+                    <font size="3" style="font-family:Microsoft YaHei">
+                        {{ product.name }}
+                    </font>
+                    <!-- {{ product.text }} -->
+                    <!--
+                    <ul>
+                        {% for line in product.text %}
+                            <li>{{ line }}</li>
+                        {% endfor %}
+                    </ul>
+                    -->
+                </a>
+            </div>
+            <!-- <div class="hline"></div> -->
+        </div><! --/col-lg-3 -->	 	
+        {% endfor %}
+        
+    </div><! --/row -->
+</div><! --/container -->

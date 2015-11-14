@@ -1,0 +1,33 @@
+---
+layout: default_layout
+title: Contact Us
+permalink: /contact/
+---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>Address</h4>
+            <div class="hline"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+                <p>
+                    <!-- Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br/> -->
+                    Tel: {{ site.tel }}
+                </p>
+            <!--
+                <p>
+                <a target="_blank" href="https://yaphetcat.wufoo.com/forms/how-can-i-help/" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_02.png"/></a>
+                    <a href="#" class="button email">Send email</a>
+                </p>
+            -->
+                <a target="_blank" href="https://yaphetcat.wufoo.com/forms/how-can-i-help/" class="button button-3d button-primary button-rounded">
+                    <i class="fa fa-envelope"></i> Send Email
+                </a>
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->
