@@ -1,5 +1,5 @@
 # -------------------------------
-# 
+#
 # 公共设置
 #
 # -------------------------------
@@ -17,9 +17,9 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
-  primary_nav: "#666666" #"#FF3333" 
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  primary: "#00b3fe" #"#F70031"
+  primary_nav: "#666666" #"#FF3333"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
@@ -29,7 +29,7 @@ colors:  #in hex code if not noted else
 
 
 # -------------------------------
-# 
+#
 # 联系方式设置
 #
 # -------------------------------
@@ -47,13 +47,13 @@ social:
 #  - title: dribbble
 #    url:
 #  - title: instagram
-#    url: 
+#    url:
 #  - title: tumblr
-#    url: 
+#    url:
 
 # 地址信息
 address:
-  - lines: 
+  - lines:
     - Shenzhen LYB Trading Co., Ltd
     - Room 501, Building C, Tianhui Building
     - Yousong Road, Longhua
@@ -67,7 +67,7 @@ email: wolfteeth_uk@kinddom.com
 
 
 # -------------------------------
-# 
+#
 # 基础数据设置
 #
 # -------------------------------
@@ -77,7 +77,7 @@ products:
 #  - name: Rayfun 子供 女の子 ガールズ ドレス キッズドレス フォーマル ピアノ 演奏会 発表会 結婚式 入園式 コンサート ハロウィン holloween お姫様 プリンセス Princess 洋服 895718
 #    img: kinddom_0001.jpg
 #    url: "http://www.amazon.co.jp/Rayfun-%E3%82%AD%E3%83%83%E3%82%BA%E3%83%89%E3%83%AC%E3%82%B9-holloween-Princess-895718-x/dp/B00VLAVTGM/ref=sr_1_31?m=A1UNGCFEG6Q6NN&s=merchant-items&ie=UTF8&qid=1443871952&sr=1-31"
-#    text: 
+#    text:
 #      - ウエディングドレスや高級ドレスを多くご覧いただいた方にはおわかり頂ける上質の子供ドレスです
 #      - お子様のデリケートな部分に触れる部分は綿混の総裏地付きです。お肌の弱いお子様にも安心です。
 #      - サイズ：商品の説明にご参考してください
@@ -93,7 +93,7 @@ products:
     img: wolfteeth_0004.jpg
   - name: Wolfteeth® Bright LED Flashlight; 3 Modes Adjustable Focus Lighting Lamp Flashlight Torch (Gold)
     img: wolfteeth_0005.jpg
-  - name: Wolfteeth® T6 10 Watt Led Flashlight; Zoom Self-defense Brigh Flashlight; Long-range Rechargeable Torch (Copper) 
+  - name: Wolfteeth® T6 10 Watt Led Flashlight; Zoom Self-defense Brigh Flashlight; Long-range Rechargeable Torch (Copper)
     img: wolfteeth_0006.jpg
   - name: WOLFTEETH ガールズ ドレス ピアノ 演奏会 プリンセス 洋服 875811
     img: wolfteeth_0007.jpg
@@ -111,6 +111,8 @@ products:
     img: wolfteeth_0013.jpg
   - name: WOLFTEETH  ピカチュウ　可愛い  ペット服　犬服
     img: wolfteeth_0014.jpg
+  - name: WOLFTEETH ブラックスチール黒鋼 懐中時計
+    img: wolfteeth_0015.jpg
 
 # 友情链接
 clients:
